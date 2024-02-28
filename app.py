@@ -56,7 +56,7 @@ def main():
     """
     Main function to run the Whisper Transcription app.
     """
-    st.title("Whisper Transcription")
+    st.title("Whisper Transcription New")
 
     tab1, tab2 = st.tabs(["Record Audio", "Upload Audio"])
 
