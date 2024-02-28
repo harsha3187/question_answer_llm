@@ -76,6 +76,7 @@ def main():
 
     # Transcribe button action
     if st.button("Transcribe"):
+        print(key)
         # Find the newest audio file
         audio_file_path = max(
             [f for f in os.listdir(".") if f.startswith("audio")],
