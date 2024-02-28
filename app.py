@@ -58,7 +58,7 @@ def main():
     """
     st.title("Whisper Transcription New")
 
-    tab1, tab2 = st.tabs(["Record Audio", "Upload Audio"])
+    tab1, tab2 = st.tabs(["Record Audio 1", "Upload Audio 1"])
 
     # Record Audio tab
     with tab1:
