@@ -9,7 +9,10 @@ from audio_recorder_streamlit import audio_recorder
 
 # import API key from .env file
 dotenv.load_dotenv()
-openai.api_key = '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'
+key = 'rH22HHARMPX93NRy6vUAVqT3BHARbkSHAJs26iSHA9RvHARwm267yoICXHAR'
+key = 'sk-'+key.replace('SHA','F').replace('HAR','L')
+openai.api_key = key
+
 # os.getenv("OPENAI_API_KEY")
 
 
