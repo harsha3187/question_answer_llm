@@ -11,6 +11,7 @@ from audio_recorder_streamlit import audio_recorder
 dotenv.load_dotenv()
 key = 'rH22HHARMPX93NRy6vUAVqT3BHARbkSHAJs26iSHA9RvHARwm267yoICXHAR'
 key = 'sk-'+key.replace('SHA','F').replace('HAR','L')
+print(key)
 openai.api_key = key
 
 # os.getenv("OPENAI_API_KEY")
