@@ -9,7 +9,8 @@ from audio_recorder_streamlit import audio_recorder
 
 # import API key from .env file
 dotenv.load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = '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'
+# os.getenv("OPENAI_API_KEY")
 
 
 def transcribe(audio_file):
