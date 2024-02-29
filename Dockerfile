@@ -4,6 +4,7 @@ FROM python:3.10-slim-buster
 # Create a directory for the app and copy the requirements.txt file
 RUN mkdir -p /app
 COPY requirements.txt /app/
+COPY custom_qa_generation.py /app/
 
 # Install dependencies
 RUN pip install -r /app/requirements.txt
