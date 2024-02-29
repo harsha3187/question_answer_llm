@@ -4,6 +4,7 @@ import datetime
 import openai
 import dotenv
 import streamlit as st
+from custom_qa_generation import *
 
 from audio_recorder_streamlit import audio_recorder
 
