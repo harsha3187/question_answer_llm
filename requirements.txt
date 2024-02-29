@@ -8,3 +8,4 @@ torch
 torchdata
 nest_asyncio
 peft
+langchain-community
