@@ -15,15 +15,11 @@ key = 'sk-'+key.replace('SHA','J').replace('HAR','F')
 print(key)
 openai.api_key = key
 
-
-
-search_internet = st.checkbox("check internet?", value=False, key="internet")
 prompt = st.text_input("prompt", value="", key="prompt")
 genre = st.radio(
     "Select your language",
     ["English", "Arabic"],
-    captions = ["English", "Arabic"])
-prompt = st.text_input("prompt", value="", key="prompt")
+    captions = ["English", "Arabic"],horizontal=True)
 qa_model = qa_llm()
 
 if prompt!="":
